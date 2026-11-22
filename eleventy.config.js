@@ -4,9 +4,11 @@ const WIDTHS = [480, 800, 1200, 1600];
 const cdn = (src, w) => `/.netlify/images?url=${encodeURIComponent(src)}&w=${w}&q=78`;
 
 export default function (cfg) {
-  ["img", "comics", "admin", "_redirects", "favicon.ico", "apple-touch-icon.png", "og.jpg"].forEach((p) =>
+  ["img", "comics", "admin", "_redirects", "favicon.ico", "apple-touch-icon.png", "og.jpg", "robots.txt"].forEach((p) =>
     cfg.addPassthroughCopy(`src/${p}`)
   );
+
+  cfg.addFilter("isoDate", () => new Date().toISOString().slice(0, 10));
 
   cfg.addTransform("responsive-images", function (content) {
     if (!(this.page.outputPath || "").endsWith(".html") || this.page.outputPath.includes("/admin/")) return content;
