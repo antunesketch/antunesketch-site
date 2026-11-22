@@ -1,0 +1,171 @@
+{
+  "galeria": [
+    {
+      "imagem": "/img/0e4e2b9d185789b5ae6491c8dc5e9601.jpg",
+      "titulo": "Booting '21",
+      "descricao_en": "cyber skull ",
+      "descricao_pt": "caveira cibernética "
+    },
+    {
+      "imagem": "/img/c5426f3cce967ca407e5f866bc368919.jpg",
+      "titulo": "It's a Dead End",
+      "descricao_en": "long-haired cyborg woman with ",
+      "descricao_pt": "mulher ciborgue de cabelo longo com "
+    },
+    {
+      "imagem": "/img/684b5adee563cc415b8e6cb21f632456.jpg",
+      "titulo": "Anxiety Storm",
+      "descricao_en": "a screaming man engulfed by robotic skulls and red cables",
+      "descricao_pt": "homem gritando cercado por caveiras robóticas e cabos vermelhos"
+    },
+    {
+      "imagem": "/img/b6dbcb826901e7f26dcc637358b716f2.jpg",
+      "titulo": "System Overload",
+      "descricao_en": "electric-eyed woman on purple",
+      "descricao_pt": "mulher de olhos elétricos em fundo roxo"
+    },
+    {
+      "imagem": "/img/5eb8dff35fd5e1118745599835766203.jpg",
+      "titulo": "Lazarus",
+      "descricao_en": "skull-faced cyborg hanging from cables in purple and red light",
+      "descricao_pt": "ciborgue de caveira presa por cabos, luz roxa e vermelha"
+    },
+    {
+      "imagem": "/img/d6653e0a1e6968f08deb011586b76f92.jpg",
+      "titulo": "Shattered Scream",
+      "descricao_en": "mechanical faces breaking apart in red and blue light",
+      "descricao_pt": "rostos mecânicos se desfazendo em luz vermelha e azul"
+    },
+    {
+      "imagem": "/img/5dda05cbae7942620ee27d835f3b407f.jpg",
+      "titulo": "Taarna",
+      "descricao_en": "white-haired warrior with a sword amid green lightning",
+      "descricao_pt": "guerreira de cabelo branco com espada, raios verdes"
+    }
+  ],
+  "exemplos_encomenda": [
+    {
+      "imagem": "/img/dd8e1af6847d13f5a101bb22297f0483.jpg",
+      "titulo": "As the World Falls Down",
+      "descricao_en": "chained cyborg with a red visor",
+      "descricao_pt": "ciborgue acorrentado com visor vermelho"
+    },
+    {
+      "imagem": "/img/a4a673194fe768850f4a4b71cbb7f669.jpg",
+      "titulo": "John, I'm Only Dancing",
+      "descricao_en": "cyborg with a saw arm on yellow",
+      "descricao_pt": "ciborgue com braço-serra sobre fundo amarelo"
+    },
+    {
+      "imagem": "/img/a12bca683531c8056bb73df14a88da5b.jpg",
+      "titulo": "RazorChrome",
+      "descricao_en": "cyborg swordswoman in orange light",
+      "descricao_pt": "guerreira ciborgue com espada em luz laranja"
+    },
+    {
+      "imagem": "/img/dcc0fbcda429406e38c75ea777d4046c.jpg",
+      "titulo": "Pet Wars",
+      "descricao_en": "cyborg dog at a ",
+      "descricao_pt": "cão ciborgue diante de um painel com o botão "
+    }
+  ],
+  "destaque": {
+    "imagem": "/img/97e428731c6d415ac7065bb1dc99ebc0.jpg",
+    "titulo": "Bring it on",
+    "credito": "Heavy Metal",
+    "descricao_en": "purple-and-gold cyborg firing yellow sparks",
+    "descricao_pt": "ciborgue roxo e dourado disparando faíscas amarelas"
+  },
+  "originais": [
+    {
+      "titulo": "As the World Falls Down",
+      "imagem": "/img/4d8a003fd0bbd81df21b92c12cdeffbf.jpg",
+      "ano": 2022,
+      "formato": "A4",
+      "preco": 650,
+      "link_pagamento": "https://mpago.la/28gXYAU",
+      "vendido": false
+    },
+    {
+      "titulo": "Circuit War Chronicles 23",
+      "imagem": "/img/18ea1e47d1e6003462b7c96d97a5dd0f.jpg",
+      "ano": 2025,
+      "formato": "A4",
+      "preco": 650,
+      "link_pagamento": "https://mpago.la/1CPc5wa",
+      "vendido": false
+    },
+    {
+      "titulo": "CyberWars Chronicles 6",
+      "imagem": "/img/bfe7ff9c4e4b63e6683a60f874b294ad.jpg",
+      "ano": 2026,
+      "formato": "A4",
+      "preco": 650,
+      "link_pagamento": "https://mpago.la/2nAghux",
+      "vendido": false
+    },
+    {
+      "titulo": "Cybershock",
+      "imagem": "/img/73e3dfdbe03f8a32fada27d73d548590.jpg",
+      "ano": 2026,
+      "formato": "A4",
+      "preco": 500,
+      "link_pagamento": "https://mpago.la/2eSHadJ",
+      "vendido": false
+    },
+    {
+      "titulo": "Digital Jungle Hunters",
+      "imagem": "/img/306b0a9194485baf6dc514b76819d347.jpg",
+      "ano": 2025,
+      "formato": "A4",
+      "preco": 650,
+      "link_pagamento": "https://mpago.la/1RZAZrc",
+      "vendido": false
+    },
+    {
+      "titulo": "El Elektro",
+      "imagem": "/img/deb9f8349631dcaee2f6f735d2daa220.jpg",
+      "ano": 2026,
+      "formato": "A4",
+      "preco": 500,
+      "link_pagamento": "https://mpago.la/2rBQQc9",
+      "vendido": false
+    },
+    {
+      "titulo": "Electric Winds",
+      "imagem": "/img/d5ec81e6ea0b58366f3624ed2f9c2b03.jpg",
+      "ano": 2026,
+      "formato": "A4",
+      "preco": 700,
+      "link_pagamento": "https://mpago.la/2HyMZHi",
+      "vendido": false
+    },
+    {
+      "titulo": "Epifanía de la Máquina",
+      "imagem": "/img/02d1ba0eda7df1ae5a9ae9f2b259674c.jpg",
+      "ano": 2026,
+      "formato": "A4",
+      "preco": 650,
+      "link_pagamento": "https://mpago.la/2x68etW",
+      "vendido": false
+    },
+    {
+      "titulo": "Flesh Protocol",
+      "imagem": "/img/4838a85e5016c849a3f9613a2f565e6b.jpg",
+      "ano": 2026,
+      "formato": "A4",
+      "preco": 650,
+      "link_pagamento": "https://mpago.la/1qQQsdy",
+      "vendido": false
+    },
+    {
+      "titulo": "Vekktor",
+      "imagem": "/img/0553c6056084eeea50c1e44edd9b43f8.jpg",
+      "ano": 2026,
+      "formato": "A4",
+      "preco": 500,
+      "link_pagamento": "https://mpago.la/1oLvbkV",
+      "vendido": false
+    }
+  ]
+}

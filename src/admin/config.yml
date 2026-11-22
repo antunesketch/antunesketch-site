@@ -1,0 +1,56 @@
+backend:
+  name: github
+  repo: antunesketch/antunesketch-site
+  branch: main
+
+locale: pt
+media_folder: src/img/uploads
+public_folder: /img/uploads
+
+collections:
+  - name: site
+    label: Conteúdo do site
+    files:
+      - name: conteudo
+        label: Artes, galeria e originais
+        file: src/_data/site.json
+        fields:
+          - label: Arte de destaque (topo da home)
+            name: destaque
+            widget: object
+            fields:
+              - { label: Imagem, name: imagem, widget: image }
+              - { label: Título, name: titulo, widget: string }
+              - { label: Crédito (ex. Heavy Metal), name: credito, widget: string, required: false }
+              - { label: Descrição em inglês (acessibilidade), name: descricao_en, widget: string }
+              - { label: Descrição em português (acessibilidade), name: descricao_pt, widget: string }
+          - label: Galeria (a primeira aparece em largura total)
+            name: galeria
+            widget: list
+            summary: "{{fields.titulo}}"
+            fields:
+              - { label: Imagem, name: imagem, widget: image }
+              - { label: Título, name: titulo, widget: string }
+              - { label: Descrição em inglês, name: descricao_en, widget: string }
+              - { label: Descrição em português, name: descricao_pt, widget: string }
+          - label: Exemplos na seção de encomendas
+            name: exemplos_encomenda
+            widget: list
+            summary: "{{fields.titulo}}"
+            fields:
+              - { label: Imagem, name: imagem, widget: image }
+              - { label: Título, name: titulo, widget: string }
+              - { label: Descrição em inglês, name: descricao_en, widget: string }
+              - { label: Descrição em português, name: descricao_pt, widget: string }
+          - label: Originais à venda
+            name: originais
+            widget: list
+            summary: "{{fields.titulo}} — R$ {{fields.preco}}"
+            fields:
+              - { label: Título, name: titulo, widget: string }
+              - { label: Foto do original, name: imagem, widget: image }
+              - { label: Ano, name: ano, widget: number, value_type: int }
+              - { label: Formato, name: formato, widget: select, options: [A4, A3], default: A4 }
+              - { label: Preço da peça (R$, sem frete), name: preco, widget: number, value_type: int }
+              - { label: Link do Mercado Pago (preço + R$ 35 de frete), name: link_pagamento, widget: string }
+              - { label: Vendido, name: vendido, widget: boolean, default: false }
