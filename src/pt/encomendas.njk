@@ -12,7 +12,7 @@ permalink: /pt/encomendas.html
 <meta property="og:title" content="João Antunes Jr. — Antunesketch">
 <meta property="og:description" content="Ilustração, animação e quadrinhos de João Antunes Jr. — ciborgues, biopunk e ficção científica. Encomendas e originais à venda.">
 <meta property="og:url" content="https://antunesketch.com/pt/encomendas.html">
-<meta property="og:image" content="https://antunesketch.com/og.jpg">
+<meta property="og:image" content="https://antunesketch.netlify.app/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -37,6 +37,7 @@ a{color:#16130F}a:hover{color:#5A4F3E}
 <a href="/pt/#press" style="text-decoration: none">Imprensa</a>
 <a href="/pt/originais.html" style="text-decoration: none; background: #C8F03C; color: #16130F; border: 2px solid #16130F; padding: 4px 10px; font-weight: 600">★ Compre originais</a>
 <a href="#encomendas" style="text-decoration: none; background: #16130F; color: #ECE5D3; padding: 6px 12px">Encomendas</a>
+<button type="button" data-share data-done="Link copiado ✓" style="font: inherit; letter-spacing: inherit; text-transform: inherit; background: transparent; color: #16130F; border: 2px solid #16130F; padding: 4px 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 3v13M7 8l5-5 5 5M5 14v7h14v-7"/></svg><span>Compartilhar</span></button>
 <span style="display: flex; gap: 6px"><a href="/en/" style="text-decoration: none; color: #5A4F3E">EN</a><span aria-hidden="true">/</span><strong>PT</strong></span>
 </nav>
 </header>
@@ -136,5 +137,8 @@ a{color:#16130F}a:hover{color:#5A4F3E}
 <span>antunesketch.com/pt</span>
 </footer>
 </div>
+<script>
+document.querySelectorAll("[data-share]").forEach(function(b){b.addEventListener("click",async function(){var d={title:document.title,url:location.href.split("?")[0]};if(navigator.share){try{await navigator.share(d);}catch(e){}return;}try{await navigator.clipboard.writeText(d.url);var t=b.querySelector("span"),o=t.textContent;t.textContent=b.dataset.done;setTimeout(function(){t.textContent=o},2000);}catch(e){prompt("",d.url);}});});
+</script>
 </body>
 </html>

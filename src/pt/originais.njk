@@ -11,7 +11,7 @@ permalink: /pt/originais.html
 <meta property="og:title" content="Originais em papel — Antunesketch">
 <meta property="og:description" content="Peças únicas em nanquim, assinadas. Pix ou cartão.">
 <meta property="og:url" content="https://antunesketch.com/pt/originais.html">
-<meta property="og:image" content="https://antunesketch.com/og.jpg">
+<meta property="og:image" content="https://antunesketch.netlify.app/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,6 +34,7 @@ a{color:#16130F}a:hover{color:#5A4F3E}
 <a href="/pt/#press" style="text-decoration: none">Imprensa</a>
 <a href="#" aria-current="page" style="text-decoration: none; background: #C8F03C; color: #16130F; border: 2px solid #16130F; padding: 4px 10px; font-weight: 600">★ Compre originais</a>
 <a href="/pt/encomendas.html" style="text-decoration: none; background: #16130F; color: #ECE5D3; padding: 6px 12px">Encomendas</a>
+<button type="button" data-share data-done="Link copiado ✓" style="font: inherit; letter-spacing: inherit; text-transform: inherit; background: transparent; color: #16130F; border: 2px solid #16130F; padding: 4px 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 3v13M7 8l5-5 5 5M5 14v7h14v-7"/></svg><span>Compartilhar</span></button>
 <span style="display: flex; gap: 6px"><a href="/en/" style="text-decoration: none; color: #5A4F3E">EN</a><span aria-hidden="true">/</span><strong>PT</strong></span>
 </nav>
 </header>
@@ -50,7 +51,7 @@ a{color:#16130F}a:hover{color:#5A4F3E}
 <section aria-label="Catálogo" style="max-width: 1360px; margin: 0 auto; padding: 0 40px 72px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 32px">
 {% for o in site.originais %}<article style="display: flex; flex-direction: column; gap: 10px">
 <div style="background: #FBF8F0; border: 2px solid #16130F; padding: 18px; display: flex; align-items: center; justify-content: center">
-<img src="{{ o.imagem }}" alt="{{ o.titulo }} — original em nanquim sobre papel" loading="lazy" style="width: 100%; aspect-ratio: 210 / 297; object-fit: cover; display: block{% if o.vendido %}; opacity: 0.45{% endif %}">
+<a href="{{ o.imagem }}" target="_blank" rel="noopener" title="Ver {{ o.titulo }} em tamanho grande" style="display: block; width: 100%; cursor: zoom-in"><img src="{{ o.imagem }}" alt="{{ o.titulo }} — original em nanquim sobre papel" loading="lazy" style="width: 100%; aspect-ratio: 210 / 297; object-fit: cover; display: block{% if o.vendido %}; opacity: 0.45{% endif %}"></a>
 </div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 8px">
 <h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; text-transform: uppercase; line-height: 1">{{ o.titulo }}</h2>
@@ -68,7 +69,7 @@ a{color:#16130F}a:hover{color:#5A4F3E}
 <div style="flex: 1 1 520px; display: flex; flex-direction: column; gap: 12px; min-width: 0">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #C8F03C">Exemplo · página da peça</p>
 <div style="background: #FBF8F0; padding: 28px">
-<img src="{{ f.imagem }}" alt="{{ f.titulo }} — original em nanquim sobre papel" style="width: 100%; aspect-ratio: 210 / 297; object-fit: cover; display: block">
+<a href="{{ f.imagem }}" target="_blank" rel="noopener" style="display: block; cursor: zoom-in"><img src="{{ f.imagem }}" alt="{{ f.titulo }} — original em nanquim sobre papel" style="width: 100%; aspect-ratio: 210 / 297; object-fit: cover; display: block"></a>
 </div>
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #B9AE97">Foto do original + detalhe do traço + foto em escala (mão ou régua)</p>
 </div>
@@ -103,5 +104,8 @@ a{color:#16130F}a:hover{color:#5A4F3E}
 <span>antunesketch.com/pt</span>
 </footer>
 </div>
+<script>
+document.querySelectorAll("[data-share]").forEach(function(b){b.addEventListener("click",async function(){var d={title:document.title,url:location.href.split("?")[0]};if(navigator.share){try{await navigator.share(d);}catch(e){}return;}try{await navigator.clipboard.writeText(d.url);var t=b.querySelector("span"),o=t.textContent;t.textContent=b.dataset.done;setTimeout(function(){t.textContent=o},2000);}catch(e){prompt("",d.url);}});});
+</script>
 </body>
 </html>
