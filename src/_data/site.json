@@ -1,5 +1,18 @@
 {
+  "destaque": {
+    "imagem": "/img/97e428731c6d415ac7065bb1dc99ebc0.jpg",
+    "titulo": "Bring it on",
+    "credito": "Heavy Metal",
+    "descricao_en": "purple-and-gold cyborg firing yellow sparks",
+    "descricao_pt": "ciborgue roxo e dourado disparando faíscas amarelas"
+  },
   "galeria": [
+    {
+      "imagem": "/img/5eb8dff35fd5e1118745599835766203.jpg",
+      "titulo": "Lazarus",
+      "descricao_en": "skull-faced cyborg hanging from cables in purple and red light",
+      "descricao_pt": "ciborgue de caveira presa por cabos, luz roxa e vermelha"
+    },
     {
       "imagem": "/img/0e4e2b9d185789b5ae6491c8dc5e9601.jpg",
       "titulo": "Booting '21",
@@ -23,12 +36,6 @@
       "titulo": "System Overload",
       "descricao_en": "electric-eyed woman on purple",
       "descricao_pt": "mulher de olhos elétricos em fundo roxo"
-    },
-    {
-      "imagem": "/img/5eb8dff35fd5e1118745599835766203.jpg",
-      "titulo": "Lazarus",
-      "descricao_en": "skull-faced cyborg hanging from cables in purple and red light",
-      "descricao_pt": "ciborgue de caveira presa por cabos, luz roxa e vermelha"
     },
     {
       "imagem": "/img/d6653e0a1e6968f08deb011586b76f92.jpg",
@@ -69,13 +76,6 @@
       "descricao_pt": "cão ciborgue diante de um painel com o botão "
     }
   ],
-  "destaque": {
-    "imagem": "/img/97e428731c6d415ac7065bb1dc99ebc0.jpg",
-    "titulo": "Bring it on",
-    "credito": "Heavy Metal",
-    "descricao_en": "purple-and-gold cyborg firing yellow sparks",
-    "descricao_pt": "ciborgue roxo e dourado disparando faíscas amarelas"
-  },
   "originais": [
     {
       "titulo": "As the World Falls Down",
