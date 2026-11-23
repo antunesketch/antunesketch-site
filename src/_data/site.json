@@ -48,6 +48,18 @@
       "titulo": "Taarna",
       "descricao_en": "white-haired warrior with a sword amid green lightning",
       "descricao_pt": "guerreira de cabelo branco com espada, raios verdes"
+    },
+    {
+      "imagem": "/img/uploads/joao-antunes-jr-antunesketch-03b.webp",
+      "titulo": "Dead Orbit",
+      "descricao_en": "Ataque de uma monstruosidade espacial",
+      "descricao_pt": "Space monstrosity attack"
+    },
+    {
+      "imagem": "/img/uploads/joao-antunes-jr-antunesketch-hackervantico-wide.jpg",
+      "titulo": "The Watch",
+      "descricao_en": "A hacker over a pile of electronic devices",
+      "descricao_pt": "Um hacker sobre uma pilha de aparelhos eletrônicos"
     }
   ],
   "exemplos_encomenda": [
