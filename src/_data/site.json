@@ -8,6 +8,12 @@
   },
   "galeria": [
     {
+      "imagem": "/img/c5426f3cce967ca407e5f866bc368919.jpg",
+      "titulo": "It's a Dead End",
+      "descricao_en": "long-haired cyborg woman with ",
+      "descricao_pt": "mulher ciborgue de cabelo longo com "
+    },
+    {
       "imagem": "/img/5eb8dff35fd5e1118745599835766203.jpg",
       "titulo": "Lazarus",
       "descricao_en": "skull-faced cyborg hanging from cables in purple and red light",
@@ -18,12 +24,6 @@
       "titulo": "Booting '21",
       "descricao_en": "cyber skull ",
       "descricao_pt": "caveira cibernética "
-    },
-    {
-      "imagem": "/img/c5426f3cce967ca407e5f866bc368919.jpg",
-      "titulo": "It's a Dead End",
-      "descricao_en": "long-haired cyborg woman with ",
-      "descricao_pt": "mulher ciborgue de cabelo longo com "
     },
     {
       "imagem": "/img/684b5adee563cc415b8e6cb21f632456.jpg",
