@@ -8,6 +8,12 @@
   },
   "galeria": [
     {
+      "imagem": "/img/uploads/joao-antunes-jr-antunesketch-hackervantico-wide.jpg",
+      "titulo": "The Watch",
+      "descricao_en": "A hacker over a pile of electronic devices",
+      "descricao_pt": "Um hacker sobre uma pilha de aparelhos eletrônicos"
+    },
+    {
       "imagem": "/img/c5426f3cce967ca407e5f866bc368919.jpg",
       "titulo": "It's a Dead End",
       "descricao_en": "long-haired cyborg woman with ",
@@ -54,12 +60,6 @@
       "titulo": "Dead Orbit",
       "descricao_en": "Ataque de uma monstruosidade espacial",
       "descricao_pt": "Space monstrosity attack"
-    },
-    {
-      "imagem": "/img/uploads/joao-antunes-jr-antunesketch-hackervantico-wide.jpg",
-      "titulo": "The Watch",
-      "descricao_en": "A hacker over a pile of electronic devices",
-      "descricao_pt": "Um hacker sobre uma pilha de aparelhos eletrônicos"
     }
   ],
   "exemplos_encomenda": [
