@@ -288,5 +288,6 @@ a{color:#16130F}a:hover{color:#5A4F3E}
 <script>
 document.querySelectorAll("[data-share]").forEach(function(b){b.addEventListener("click",async function(){var d={title:document.title,url:location.href.split("?")[0]};if(navigator.share){try{await navigator.share(d);}catch(e){}return;}try{await navigator.clipboard.writeText(d.url);var t=b.querySelector("span"),o=t.textContent;t.textContent=b.dataset.done;setTimeout(function(){t.textContent=o},2000);}catch(e){prompt("",d.url);}});});
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9881a879593a49efa133ee846a592126"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
